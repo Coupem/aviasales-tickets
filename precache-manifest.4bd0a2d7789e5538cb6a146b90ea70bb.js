@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "362f7524073059a9ab0088039020f9c6",
+    "revision": "54040ba7720285b13e7d62862e636d38",
     "url": "/aviasales-tickets/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aviasales-tickets/static/css/2.9f8e73b3.chunk.css"
   },
   {
-    "revision": "9f292ff75ebcfa06e122",
-    "url": "/aviasales-tickets/static/css/main.11eb4770.chunk.css"
+    "revision": "6195d43853dbddf10484",
+    "url": "/aviasales-tickets/static/css/main.7a7c8a2c.chunk.css"
   },
   {
     "revision": "0e625fff96864dbea0c4",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aviasales-tickets/static/js/2.a44a18b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f292ff75ebcfa06e122",
-    "url": "/aviasales-tickets/static/js/main.4387f2d7.chunk.js"
+    "revision": "6195d43853dbddf10484",
+    "url": "/aviasales-tickets/static/js/main.9e794190.chunk.js"
   },
   {
     "revision": "1f5cc4f5927d8304d52e",
