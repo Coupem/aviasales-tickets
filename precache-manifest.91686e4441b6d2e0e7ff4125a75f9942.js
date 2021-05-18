@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54040ba7720285b13e7d62862e636d38",
+    "revision": "3da7acb23d4a8812d3636c437fcb3a58",
     "url": "/aviasales-tickets/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aviasales-tickets/static/css/2.9f8e73b3.chunk.css"
   },
   {
-    "revision": "6195d43853dbddf10484",
+    "revision": "05183639e21e91c306bf",
     "url": "/aviasales-tickets/static/css/main.7a7c8a2c.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aviasales-tickets/static/js/2.a44a18b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6195d43853dbddf10484",
-    "url": "/aviasales-tickets/static/js/main.9e794190.chunk.js"
+    "revision": "05183639e21e91c306bf",
+    "url": "/aviasales-tickets/static/js/main.9b3e29c0.chunk.js"
   },
   {
     "revision": "1f5cc4f5927d8304d52e",
     "url": "/aviasales-tickets/static/js/runtime-main.9405c9ea.js"
+  },
+  {
+    "revision": "f887d09673b89d6b045048db2831037a",
+    "url": "/aviasales-tickets/static/media/aviasales.f887d096.svg"
   },
   {
     "revision": "a91ad097d24828af724d4fee36a063ed",
