@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import LinearProgress from '@material-ui/core/LinearProgress';
 import MainSearchButton from './components/MainSearchButton';
 import CheckBoxBar from './components/CheckBoxBar';
 import TicketsGroup from './components/TicketsGroup';
@@ -36,9 +35,7 @@ const stopsCheckboxes = [
 
 export default function MainPage() {
   const classes = useStyles();
-  const { ticketsLoaded, isLoadingTickets } = useSelector(
-    (state) => state.items
-  );
+  const { ticketsLoaded } = useSelector((state) => state.items);
 
   const [stateCheckBox, setStateCheckBox] = useState({});
   const [allowedStopsCount, setAllowedStopsCount] = useState([]);
@@ -54,11 +51,7 @@ export default function MainPage() {
 
   return (
     <div className={classes.mainPage}>
-      <MainSearchButton />
-      {isLoadingTickets && (
-        <LinearProgress classes={{ root: classes.spinner }} />
-      )}
-      {ticketsLoaded && (
+      {(!ticketsLoaded && <MainSearchButton />) || (
         <div className={classes.wrapperContainer}>
           <CheckBoxBar
             stateCheckBox={stateCheckBox}
