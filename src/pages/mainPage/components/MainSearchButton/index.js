@@ -3,7 +3,7 @@ import { Button } from '@material-ui/core';
 import { useDispatch, useSelector } from 'react-redux';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import { fetchTickets } from '../../ducks/actions';
-import button from './assets/images/searchButton.png';
+import button from './assets/images/aviasales.svg';
 import { useStyles } from './styles';
 
 export default function MainSearchButton() {

@@ -4,6 +4,7 @@ export const useStyles = makeStyles((theme) => ({
   mainPage: {
     width: 980,
     boxShadow: '0 0 10px rgba(0,0,0,0.1)',
+    backgroundColor: 'white',
     margin: 'auto',
     paddingTop: theme.spacing(5),
     minHeight: 1000,
